@@ -1,0 +1,24 @@
+BAIP: 0008 Title: Reduce of price threshold by 30% for bitcny Authors: b-dex Status: Accepted Type: Consensus Created: 2020-06-20
+
+
+Abstract 
+
+The purpose of this proposal is to get bitcny full pegg back and make bitshares dex back attractive to traders
+
+
+Specification
+
+Bitcny and Bitusd has been put a price feed threshold to stop the negative effects of price manipulations on CEX.
+Since then volume and interrest on trading on these both bitassets have sunk dramaticly.
+To get back interest for the bitcny there is an opportunity to get the pegg back by reducing the threshold by 30%.
+Currently all debtors who are shorting bitcny have a CR of 2.6 or higher.
+This means reducing the threshold by 30% their CR will fall to 1.8.
+There will be no margin calls and noone is going to lose a single BTS.
+This way bitcny gets back its full value and the market gets attractive again to be used for trading.
+BitUSD has currently not the opportunity because their CR is way lower than at bitcny debtors.
+
+
+Operation
+3 days after getting the BAIP proposal approved all witnesses change at 10 pm UCT time the price feed threshold for bitcny from 
+0.22 bitcny/bts to 0.154 bitcny/bts.
+
